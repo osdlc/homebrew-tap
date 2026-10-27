@@ -5,15 +5,14 @@ Homebrew formulae for osdlc command-line tools.
 ## Install
 
 ```sh
-brew install osdlc/tap/tradecraft
-```
-
-Or add the tap once, then install by name:
-
-```sh
 brew tap osdlc/tap
+brew trust osdlc/tap
 brew install tradecraft
 ```
+
+Homebrew 7 loads formulae from a third-party tap only after you trust it. After the first time, `brew install osdlc/tap/tradecraft` works on its own.
+
+`tradecraft` builds from source for now, which needs Rust and takes a few minutes. Prebuilt binaries are coming.
 
 ## Formulae
 
