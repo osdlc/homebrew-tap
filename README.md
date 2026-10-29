@@ -12,7 +12,7 @@ brew install skillwright
 
 Homebrew 7 loads formulae from a third-party tap only after you trust it. After the first time, `brew install osdlc/tap/skillwright` works on its own.
 
-`skillwright` installs a prebuilt binary. It was called `tradecraft` before; `brew upgrade` moves existing `tradecraft` installs to it.
+`skillwright` installs a prebuilt binary. It was called `tradecraft` before; `brew upgrade` moves existing `tradecraft` installs to it. After the move the command is `skillwright`; there is no `tradecraft` command. If you have both installed and the upgrade fails, run `brew uninstall tradecraft`, then `brew upgrade`.
 
 ## Formulae
 
