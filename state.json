@@ -1,12 +1,35 @@
 {
   "schema": 1,
   "pr": 1,
-  "head": null,
-  "base": null,
-  "round": 0,
+  "head": "64d31d1162cc7cd7c5ea48495f61b00725a2d358",
+  "base": "a163c2899aeb9b35647b56cdc903be3456e12d67",
+  "round": 1,
   "claim": {
     "owner": "KellyMBP.local:unknown-q7m2xk",
     "at": "2026-10-29T21:35:21.105Z"
   },
-  "findings": []
+  "findings": [
+    {
+      "id": "r1-1",
+      "round": 1,
+      "path": "README.md",
+      "line": 15,
+      "title": "README does not say the command name changes",
+      "comment": null,
+      "status": "open",
+      "reason": null,
+      "fixedIn": null
+    },
+    {
+      "id": "r1-2",
+      "round": 1,
+      "path": "formula_renames.json",
+      "line": 2,
+      "title": "Machines with both formulae installed are untested",
+      "comment": null,
+      "status": "open",
+      "reason": null,
+      "fixedIn": null
+    }
+  ]
 }
